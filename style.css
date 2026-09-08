@@ -597,3 +597,29 @@ footer {
     }
 
 }
+/* FIX PROFILE IMAGE */
+.hero-right {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.hero-right .image-container {
+    width: 420px !important;
+    height: 500px !important;
+    overflow: hidden !important;
+    border-radius: 20px !important;
+    border: 1px solid #3b82f6 !important;
+    position: relative !important;
+}
+
+.hero-right .image-container img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
